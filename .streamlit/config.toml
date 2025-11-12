@@ -1,0 +1,7 @@
+[theme]
+base = "light"
+primaryColor = "#e74c3c"               # Rouge cardiovasculaire ❤️
+backgroundColor = "#ffffff"            # Fond blanc propre
+secondaryBackgroundColor = "#f0f2f6"   # Gris clair pour boxes
+textColor = "#262730"                  # Texte noir
+font = "sans serif"
