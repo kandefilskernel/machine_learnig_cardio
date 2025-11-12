@@ -13,7 +13,7 @@ warnings.filterwarnings('ignore')
 
 # Configuration de la page
 st.set_page_config(
-    page_title="Prédiction Maladies Cardiovasculaires",
+    page_title="KANDE Maladies Cardiovasculaires",
     page_icon="❤️",
     layout="wide",
     initial_sidebar_state="expanded"
