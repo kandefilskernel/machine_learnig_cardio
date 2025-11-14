@@ -14,7 +14,7 @@ warnings.filterwarnings('ignore')
 # Configuration de la page
 st.set_page_config(
     page_title="KANDE Maladies Cardiovasculaires",
-    page_icon="❤️",
+    page_icon="FILS",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -142,7 +142,7 @@ def predict_heart_disease(model, scaler, label_encoders, features, input_data):
         return None, None
 
 # Header de l'application
-st.markdown('<p class="main-header">❤️ Système de Prédiction des Maladies Cardiovasculaires</p>', unsafe_allow_html=True)
+st.markdown('<p class="main-header">Prédiction des Maladies Cardiovasculaires</p>', unsafe_allow_html=True)
 st.markdown('<p class="sub-header">Outil d\'aide au dépistage précoce basé sur le Machine Learning</p>', unsafe_allow_html=True)
 
 # Chargement du modèle
@@ -430,8 +430,8 @@ elif page == "🔮 Prédiction":
                 st.write(f"- Oldpeak : {oldpeak}")
 
 # PAGE 3 : ANALYSE DE DONNÉES
-elif page == "📊 Analyse de Données":
-    st.header("📊 Analyse Exploratoire des Données")
+elif page == "Analyse de Données":
+    st.header("Exploratoire des Données")
     
     # Charger les données
     df = pd.read_csv('heart.csv')
@@ -682,7 +682,7 @@ elif page == "ℹ️ À propos":
 st.markdown("---")
 st.markdown("""
 <div style="text-align: center; color: #95a5a6;">
-    <p>🏥 Système d'Aide au Dépistage des Maladies Cardiovasculaires | 
+    <p>🏥 Logiciel de predilection | 
     🎓 Master Finance & IA | 
     💻 Powered by Streamlit & Machine Learning</p>
 </div>
